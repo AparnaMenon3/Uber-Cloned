@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: #fff;  */
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+}
+img{
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.first{
+    display: grid;
+    grid-template-columns: 0.15fr 0.60fr 0.40fr; 
+    /* padding:26px 56px; */
+    background-color:black;
+    position: sticky;
+    width: 100%;
+    z-index: 2;
+    
+    margin-bottom: 0%;
+}
+
+.logo img{
+    display: block;
+    height: 49px;
+    width: 60px;
+    background: transparent;
+    padding-left: 124px;
+    padding-top: 14px;
+}
+.navbar{
+    background-color: black;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 33px 30px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+}
+.right{
+    background-color: black;
+    
+}
+.right ul{
+    overflow: auto;
+}
+.right li{
+    float: left;
+    list-style: none;
+    margin: 33px 30px;
+    
+}
+.right li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+}
+button{
+    
+    border: none;
+    border-radius: 12px;
+    height: 30px;
+    width: 83px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    padding: 7px 16px;
+    cursor: pointer;
+    
+}
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.texts {
+    flex: 1;
+    padding: 75px;
+    /* font-size: xx-large; */
+    color: #fff;
+    margin-top: -95px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    
+}
+
+.media {
+    flex: 1; 
+}
+
+.media img {
+    width: 100%;
+    max-width: 525px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    height: 600px;
+}
+
+
+.texts button{
+    background-color: #fff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.second-section .texts {
+    flex: 1;
+    padding: 75px;
+    font-size:xx-large;
+    color: black;
+    margin-top: 30px;
+    
+}
+p{
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 20.5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+.second-section .media img {
+    width: 100%;
+    max-width: 525px;
+    padding-top: 55px;
+    padding-left: 95px;
+    height: 600px;
+}
+.second-section button{
+    background-color: black;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.second-section a{
+    font-size: medium;
+    color: rgb(96 93 93);
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.third-section .texts {
+    flex: 1;
+    padding: 75px;
+    font-size:xx-large;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;   
+}
+
+
+
+.third-section .media img {
+    width: 100%;
+    max-width: 525px;
+    padding-top: 138px;
+    padding-left: 35px;
+    height: 600px;
+}
+
+.third-section input{
+    
+    padding-left: 156px;
+    padding-right: 63px;
+    padding-top: 42px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    border-color: darkgray;
+    text-align: left;
+    background: transparent;
+    color: #fff;
+    width: 30%;
+   
+}
+.third-section button{
+    background-color: black;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.fourth-section .texts {
+    flex: 1;
+    padding: 75px;
+    font-size:xx-large;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;   
+}
+
+
+
+.fourth-section .media img {
+    width: 100%;
+    max-width: 525px;
+    padding-top: 138px;
+    padding-left: 95px;
+    height: 600px;
+}
+
+.fourth-section input{
+    
+    padding-left: 156px;
+    padding-right: 63px;
+    padding-top: 42px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    border-color: darkgray;
+    text-align: left;
+    background: transparent;
+    color: #fff;
+    width: 30%;
+   
+}
+.fourth-section button{
+    background-color: black;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.fourth-section a{
+    font-size: medium;
+    color: rgb(96 93 93);
+}
+
+.fifth-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.fifth-section .texts {
+    flex: 1;
+    padding: 75px;
+    font-size:xx-large;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;   
+}
+
+
+
+.fifth-section .media img {
+    width: 100%;
+    max-width: 525px;
+    padding-top: 138px;
+    padding-left: 35px;
+    height: 600px;
+}
+
+.fifth-section input{
+    
+    padding-left: 156px;
+    padding-right: 63px;
+    padding-top: 42px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    border-color: darkgray;
+    text-align: left;
+    background: transparent;
+    color: #fff;
+    width: 30%;
+   
+}
+.fifth-section button{
+    background-color: black;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section:nth-child(odd) div.texts{
+    order: 2;
+    margin-right: 100px;
+}
+
+.rides{
+    padding-top: 70px;
+    padding-left: 160px;;
+}
+.rides p{
+    color: black;
+}
+.rides table{
+    padding-left: -10px;
+    cursor: pointer;
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin-bottom: 110px;
+}
+
+.app-details {
+    border: 2px solid #f8f5f5;
+    background-color: #f8f5f5;
+    padding: 64px;
+    height: 400px;
+    display: flex; 
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.app-details h1{
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+.uberapp{
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 64px;
+    height: 100px;
+    width: 40%;
+    margin-left: -485px;
+    margin-top: 100px;
+   
+}
+.driverapp {
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 64px;
+    height: 100px;
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 100px; 
+    
+}
+.uberapp img, .driverapp img{
+    max-width: 100%;
+    margin-top: -44px;
+    margin-left: 1px;
+}
+.last{
+    background-color: black;
+}
+.final{
+    
+    font-size:14px;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 100px;
+    border-spacing: 10px;
+    
+}
+a{
+    color: #fff;
+}
+p{
+    font-size: medium;
+    color: #fff;
+}
+
+
